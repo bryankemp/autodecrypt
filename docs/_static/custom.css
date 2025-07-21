@@ -1,0 +1,40 @@
+/* Custom styles for AutoDecrypt documentation */
+
+/* Improve code block styling */
+.highlight {
+    margin: 1em 0;
+    border-radius: 4px;
+}
+
+/* Better admonition styling */
+.admonition {
+    margin: 1em 0;
+    padding: 0.5em;
+    border-left: 0.2em solid;
+    border-radius: 0.1em;
+    box-shadow: 0 0.2em 0.5em rgba(0,0,0,0.05);
+}
+
+/* Improve table styling */
+.wy-table-responsive table td, 
+.wy-table-responsive table th {
+    white-space: normal;
+}
+
+/* Better spacing for lists */
+.wy-nav-content li {
+    margin-bottom: 0.3em;
+}
+
+/* Custom colors for security-related content */
+.security-warning {
+    background-color: #fff3cd;
+    border-color: #ffc107;
+    color: #856404;
+}
+
+.security-note {
+    background-color: #d1ecf1;
+    border-color: #17a2b8;
+    color: #0c5460;
+}
