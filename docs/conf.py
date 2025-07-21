@@ -34,14 +34,13 @@ myst_enable_extensions = [
     "colon_fence",
     "smartquotes",
     "replacements",
-    "linkify",
     "substitution",
 ]
 
 # Configure MyST to handle both .md and .rst files
 source_suffix = {
     '.rst': None,
-    '.md': 'myst_parser',
+    '.md': None,
 }
 
 # -- Options for HTML output -------------------------------------------------
